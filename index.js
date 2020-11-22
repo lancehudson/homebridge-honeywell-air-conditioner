@@ -1,5 +1,5 @@
 module.exports = (homebridge) => {
     // eslint-disable-next-line global-require
-    const IgenixAirConditioner = require('./lib/IgenixAirConditioner')(homebridge);
-    homebridge.registerAccessory('homebridge-igenix-air-conditioner', 'IgenixAirConditioner', IgenixAirConditioner);
+    const HoneywellAirConditioner = require('./lib/HoneywellAirConditioner')(homebridge);
+    homebridge.registerAccessory('homebridge-honeywell-air-conditioner', 'HoneywellAirConditioner', HoneywellAirConditioner);
 };
